@@ -25,10 +25,11 @@ SECRET_KEY = (
     )
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
-    '8000-lanreandero-django-blog-1jelss9j6a.us2.codeanyapp.com'
+    '8000-lanreandero-django-blog-1jelss9j6a.us2.codeanyapp.com',
+    '.herokuapp.com'
 ]
 
 
